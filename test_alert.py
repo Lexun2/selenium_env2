@@ -28,7 +28,7 @@ try:
 
    
 
-    #можно создать файл в питоне
+    # как можно создать файл в питоне
     # with open("test.txt", "w") as file:
     #   content = file.write("automationbypython")  # create test.txt file
     #   file.write("123")

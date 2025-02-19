@@ -22,6 +22,7 @@ try:
     Price = WebDriverWait(browser, 12).until( EC.text_to_be_present_in_element((By.ID, "price"), "$100") )
     button.click()
 
+    # следующий кусок написала нейросеть
     x_element = browser.find_element(By.ID, "input_value")
     x = x_element.text
     y = str(math.log(abs(12*math.sin(int(x)))))
