@@ -76,3 +76,6 @@ def test_guest_should_see_login_link(browser, autorization,link):
     assert "Correct!" ==  result_text.text
 
     # The owls are not what they seem! OvO
+
+    # pytest -x           # stop after first failure
+    # pytest --maxfail=2  # stop after two failures
